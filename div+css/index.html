@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style/reset.css">
+	<link rel="stylesheet" href="style/style.css">
+	<title>筛选</title>
+</head>
+<body>
+<!--  =======================================================
+		        用途：在学习div+css布局时，根据在慕课网
+				      下载的PDF文件实现的网页。
+		        作者：黄伶俐
+		        邮箱：piaottkl@qq.com
+		        QQ：524084922
+		        其他更多(github):https://github.com/Huanglenle
+     ======================================================= -->
+<header>
+    <div id="collect">
+		<div class="left">
+			<img src="images/sc.gif" alt="">
+			<b>收藏慕课</b>
+		</div>
+		<!-- left is over -->
+		<div class="right">
+		    欢迎来到慕课网！
+			<a href="#">[登录]</a>
+			<a href="#">[免费注册]</a>
+		</div>
+		<!-- right is over -->
+	</div>
+	<!-- collect is over -->
+	<div id="al">
+		<div id="al_all">
+			<div id="logo">
+				<img src="images/logo.gif" alt="">
+			</div>
+			<!-- logo is over -->
+			<div id="search">
+				<input type="text">
+				<button>搜 索</button>
+			</div>
+			<!-- search is over -->
+			<div id="cart">
+				<img src="images/cart.gif">
+				购物车
+			</div>
+			<!-- cart is over -->
+		</div>
+		<!-- al_all is over -->
+	</div>
+	<!-- al is over -->
+	<div id="nav">
+		<ul>
+			<li id="all_cate"><a href="#">全部商品分类<img src="images/nav.gif" alt=""></a></li>
+			<li class="selected"><a href="#">数码城</a></li>
+			<li><a href="#">大的大</a></li>
+			<li><a href="#">团购</a></li>
+			<li><a href="#">发现</a></li>
+			<li><a href="#">二手特卖</a></li>
+			<li><a href="#">名品会</a></li>
+		</ul>
+	</div>
+</header>
+<div id="container">
+	<div id="sidebar">
+		<div id="pro_category">
+			<div id="pro_head">
+			   <h3>产品分类</h3>
+			</div>
+			<!-- pro_head is over -->
+			<div id="pro_content">
+				<ul>
+					<li>
+						<dl>
+							<dt>手机通讯</dt>
+							<dd>手机</dd>
+							<dd>对讲机</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>运营商</dt>
+							<dd>购机送费</dd>
+							<dd>“0”元购机</dd>
+							<dd>送号入网</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>手机配件</dt>
+							<dd>手机电池</dd>
+							<dd>蓝牙耳机</dd>
+							<dd>充电器/数据线</dd>
+							<dd>手机耳机</dd>
+							<dd>手机贴膜</dd>
+							<dd>手机存储卡</dd>
+							<dd>手机保护套</dd>
+							<dd>车载配件</dd>
+							<dd>iPhone 配件</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+			<!-- pro_content is over -->
+		</div>
+		<!-- pro_category is over -->
+		<div id="recommend">
+			<ul>
+				<li>
+					<div class="pro_imgs">
+						<img src="images/r1.gif" alt="">
+					</div>
+					<p>全网大家看好的看的空间</p>
+					<i>￥1800.00</i>
+				</li>
+				<li>
+					<div class="pro_imgs">
+						<img src="images/r2.gif" alt="">
+					</div>
+					<p>全dasd大家看好的看fsdf 间</p>
+					<i>￥7800.00</i>
+				</li>
+				<li>
+					<div class="pro_imgs">
+						<img src="images/r3.gif" alt="">
+					</div>
+					<p>全发生的发啊发地方但是间</p>
+					<i>￥1530.00</i>
+				</li>
+				<li>
+					<div class="pro_imgs">
+						<img src="images/r4.gif" alt="">
+					</div>
+					<p>全复方丹参大家看好空间</p>
+					<i>￥1250.00</i>
+				</li>
+				<li>
+					<div class="pro_imgs">
+						<img src="images/r5.gif"alt="">
+					</div>
+					<p>全网发撒地方啊发空间</p>
+					<i>￥1850.00</i>
+				</li>			
+			</ul>
+		</div>
+		<!-- recommend is over -->
+	</div>
+	<!-- sidebar is over -->
+	<div id="product">
+		<div id="screen">
+			<dl>
+				<dt>手机</dt>
+				<dd class="show">
+					<a href="#">裸机(773)</a>
+					<a href="#">合约机(192)</a>	
+				</dd>
+			</dl>
+			<dl>
+				<dt>品牌</dt>
+				<dd class="limit">不限</dd>
+				<dd class="show" id="brand">
+					<a href="#">11das1</a>
+					<a href="#">2dasd 22</a>
+					<a href="#">3asd</a>
+					<a href="#">4asd44</a>
+					<a href="#">5d a55</a>
+					<a href="#">6fds66</a>
+					<a href="#">7asd77</a>
+					<a href="#">88fsd8</a>
+					<a href="#">9asd999</a>
+					<a href="#">32das34</a>
+					<a href="#">4fsd53</a>
+					<a href="#">43das24</a>
+					<a href="#">6da56</a>
+					<a href="#">23asd42</a>
+					<a href="#">76asd74</a>
+					<a href="#">1sad231</a>
+					<a href="#">6asd54</a>
+					<a href="#">74asd56</a>
+				</dd>
+				<dd class="more">更多</dd>
+			</dl>
+			<dl>
+				<dt>屏幕尺寸</dt>
+				<dd class="limit">不限</dd>
+				<dd class="show aline">
+					<a href="#">超大屏幕(>5.9英寸)</a>
+					<a href="#">大屏幕(4.8-5.8英寸)</a>
+					<a href="#">主流屏幕尺寸(4.0-4.7英寸)</a>
+					<a href="#">超大屏幕(>5.9英寸)</a>
+					<a href="#">大屏幕(4.8-5.8英寸)</a>
+					<a href="#">主流屏幕尺寸(4.0-4.7英寸)</a>
+				</dd>
+				<dd class="more">更多</dd>
+			</dl>
+			<dl>
+				<dt>操作系统</dt>
+				<dd class="limit">不限</dd>
+				<dd class="show ">
+					<a href="#">Android</a>
+					<a href="#">屏幕iOS</a>
+					<a href="#">Windows phone</a>
+					<a href="#">Symbian</a>
+					<a href="#">非智能机</a>
+				</dd>
+			</dl>
+			<dl>
+				<dt>适用网络制式</dt>
+				<dd class="limit">不限</dd>
+				<dd class="show aline">
+					<a href="#">dadaasd11</a>
+					<a href="#">dasdasdasdas22</a>
+					<a href="#">3asdasdasd3</a>
+					<a href="#">4asdasd4</a>
+					<a href="#">5asdasd5</a>
+					<a href="#">6asdasd6</a>
+					<a href="#">7asdasd7</a>
+					<a href="#">8asdas8</a>
+				</dd>
+				<dd class="more">更多</dd>
+			</dl>
+			<dl class="select">
+				<dt>更多选项</dt>
+				<dd>
+					<a href="#">CPU核心数<img src="images/s1.gif" alt=""></a>
+					<a href="#">主摄像头像素<img src="images/s1.gif" alt=""></a>
+				</dd>
+			</dl>
+		</div>
+		<!-- screen is over -->
+		<div id="things_block">
+			<div id="things_header">
+				<div id="address">
+				  送至<i>海淀区五环内<img src="images/add.gif" alt=""></i>
+				</div>
+				<!-- address is over -->
+				<div id="all_things">
+					<input type="checkbox">尽显示有货<i>共<span>16422</span>件商品</i>
+				</div>
+				<!-- all_things is over -->
+			</div>
+			<!-- things_header is over -->
+			<div id="things">
+			    <ul>
+					<li class="things">
+                        <div class="th_img">
+							<img src="images/r1.gif" alt="">
+                        </div>
+						<p  class="des">答的 哒撒旦 撒 的 提供哒撒旦撒旦</p>
+						<p><i>￥4540.00</i><span>4555</span>条评论</p>
+						<div class="th_car">
+							<img src="images/th_car.png" alt="">
+						    加入购物车
+						</div>
+					</li>
+					<li class="things">
+                        <div class="th_img">
+							<img src="images/t2.gif" alt="">
+                        </div>
+						<p class="des"> 答的人团 圆哒 撒旦哒 撒撒旦</p>
+						<p><i>￥4540.00</i><span>4555</span>条评论</p>
+						<div class="th_car">
+							<img src="images/th_car.png" alt="">
+						    加入购物车
+						</div>
+					</li>
+					<li class="things">
+                        <div class="th_img">
+							<img src="images/r3.gif" alt="">
+                        </div>
+						<p class="des">答的 哒撒旦 打算撒 das 撒旦撒旦</p>
+						<p><i>￥4540.00</i><span>4555</span>条评论</p>
+						<div class="th_car">
+							<img src="images/th_car.png" alt="">
+						    加入购物车
+						</div>
+					</li>
+					<li class="things">
+                        <div class="th_img">
+							<img src="images/t4.gif" alt="">
+                        </div>
+						<p  class="des">答的 哒撒旦 撒 的 提供哒撒旦撒旦</p>
+						<p><i>￥4540.00</i><span>4555</span>条评论</p>
+						<div class="th_car">
+							<img src="images/th_car.png" alt="">
+						    加入购物车
+						</div>
+					</li>
+					<li class="things">
+                        <div class="th_img">
+							<img src="images/t4.gif" alt="">
+                        </div>
+						<p class="des"> 答的人团 圆哒 撒旦哒 撒撒旦</p>
+						<p><i>￥4540.00</i><span>4555</span>条评论</p>
+						<div class="th_car">
+							<img src="images/th_car.png" alt="">
+						    加入购物车
+						</div>
+					</li>
+					<li class="things">
+                        <div class="th_img">
+							<img src="images/t5.gif" alt="">
+                        </div>
+						<p class="des">答的 哒撒旦 打算撒 das 撒旦撒旦</p>
+						<p><i>￥4540.00</i><span>4555</span>条评论</p>
+						<div class="th_car">
+							<img src="images/th_car.png" alt="">
+						    加入购物车
+						</div>
+					</li>
+					<li class="things">
+                        <div class="th_img">
+							<img src="images/tt.gif" alt="">
+                        </div>
+						<p  class="des">答的 哒撒旦 撒 的 提供哒撒旦撒旦</p>
+						<p><i>￥4540.00</i><span>4555</span>条评论</p>
+						<div class="th_car">
+							<img src="images/th_car.png" alt="">
+						    加入购物车
+						</div>
+					</li>
+					<li class="things">
+                        <div class="th_img">
+							<img src="images/t2.gif" alt="">
+                        </div>
+						<p class="des"> 答的人团 圆哒 撒旦哒 撒撒旦</p>
+						<p><i>￥4540.00</i><span>4555</span>条评论</p>
+						<div class="th_car">
+							<img src="images/th_car.png" alt="">
+						    加入购物车
+						</div>
+					</li>
+					<li class="things">
+                        <div class="th_img">
+							<img src="images/tt.gif" alt="">
+                        </div>
+						<p class="des">答的 哒撒旦 打算撒 das 撒旦撒旦</p>
+						<p><i>￥4540.00</i><span>4555</span>条评论</p>
+						<div class="th_car">
+							<img src="images/th_car.png" alt="">
+						    加入购物车
+						</div>
+					</li>
+					<li class="things">
+                        <div class="th_img">
+							<img src="images/t5.gif" alt="">
+                        </div>
+						<p  class="des">答的 哒撒旦 撒 的 提供哒撒旦撒旦</p>
+						<p><i>￥4540.00</i><span>4555</span>条评论</p>
+						<div class="th_car">
+							<img src="images/th_car.png" alt="">
+						    加入购物车
+						</div>
+					</li>
+					<li class="things">
+                        <div class="th_img">
+							<img src="images/t4.gif" alt="">
+                        </div>
+						<p class="des"> 答的人团 圆哒 撒旦哒 撒撒旦</p>
+						<p><i>￥4540.00</i><span>4555</span>条评论</p>
+						<div class="th_car">
+							<img src="images/th_car.png" alt="">
+						    加入购物车
+						</div>
+					</li>
+					<li class="things">
+                        <div class="th_img">
+							<img src="images/r3.gif" alt="">
+                        </div>
+						<p class="des">答的 哒撒旦 打算撒 das 撒旦撒旦</p>
+						<p><i>￥4540.00</i><span>4555</span>条评论</p>
+						<div class="th_car">
+							<img src="images/th_car.png" alt="">
+						    加入购物车
+						</div>
+					</li>
+					<li class="things">
+                        <div class="th_img">
+							<img src="images/tt.gif" alt="">
+                        </div>
+						<p  class="des">答的 哒撒旦 撒 的 提供哒撒旦撒旦</p>
+						<p><i>￥4540.00</i><span>4555</span>条评论</p>
+						<div class="th_car">
+							<img src="images/th_car.png" alt="">
+						    加入购物车
+						</div>
+					</li>
+					<li class="things">
+                        <div class="th_img">
+							<img src="images/t2.gif" alt="">
+                        </div>
+						<p class="des"> 答的人团 圆哒 撒旦哒 撒撒旦</p>
+						<p><i>￥4540.00</i><span>4555</span>条评论</p>
+						<div class="th_car">
+							<img src="images/th_car.png" alt="">
+						    加入购物车
+						</div>
+					</li>
+					<li class="things">
+                        <div class="th_img">
+							<img src="images/r3.gif" alt="">
+                        </div>
+						<p class="des">答的 哒撒旦 打算撒 das 撒旦撒旦</p>
+						<p><i>￥4540.00</i><span>4555</span>条评论</p>
+						<div class="th_car">
+							<img src="images/th_car.png" alt="">
+						    加入购物车
+						</div>
+					</li>
+                </ul>
+			</div>
+			<!-- things is over -->
+		</div>
+		<!-- things_block is over -->
+		<div id="pages">
+			<ul>
+				<li>上一页</li>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+				<li>6</li>
+				<li>7</li>
+				<li>8</li>
+				<li>...</li>
+				<li>200</li>
+				<li>下一页</li>
+				<li>共200页,到<input type="text">页<button>确定</button></li>
+			</ul>
+		</div>
+		<!-- pages is over -->
+
+	</div>
+	<!-- product is over -->
+	<div id="null"></div>
+</div>
+<!-- container is over -->
+<footer>
+	<div id="footer">
+		<div id="nav_f">
+			<ul>
+				<li>慕课简介</li>
+				<li>慕课公告</li>
+				<li>招贤纳士</li>
+				<li>联系我们</li>
+				<li>客服热线：400-675-1234</li>
+			</ul>
+		</div>
+		<div id="add">
+			<ul>
+				<li>Copyright &copy 2006-2014 慕课版权所有</li>
+				<li>京ICP备09037834号</li>
+				<li>京icp证B1034-8373号</li>
+				<li>某市公安局XX分局备案编号：123456789123</li>
+			</ul>
+		</div>
+		<div id="logos">
+			<img src="images/1_18.gif" alt="">
+			<img src="images/1_18.gif" alt="">
+			<img src="images/1_18.gif" alt="">
+			<img src="images/1_18.gif" alt="">
+		</div>
+	</div>
+</footer>
+</body>
+</html>
