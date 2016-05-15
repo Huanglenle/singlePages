@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小米官网——小米手机、红米手机、小米电视官方正品专卖网站</title>
+    <link rel="shortcut icon" href="icon.gif">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+<!--  =======================================================
+                用途：练习JQuery的使用及DIV+CSS布局
+                作者：黄伶俐
+                邮箱：piaottkl@qq.com
+                QQ：524084922
+                其他更多(github):https://github.com/Huanglenle
+     ======================================================= -->
+<nav id="header">
+    <div id="nav_header">
+        <ul>
+            <li><a href="#">小米网</a></li>
+            <li><a href="#">MIUI</a></li>
+            <li><a href="#">米聊</a></li>
+            <li><a href="#">游戏</a></li>
+            <li><a href="#">多看阅读</a></li>
+            <li><a href="#">云服务</a></li>
+            <li><a href="#">小米网移动版</a></li>
+            <li><a href="#">问题反馈</a></li>
+            <li><a href="#">Select Region</a></li>
+        </ul>
+    </div>
+    <div id="login">
+        <ul>
+            <li><a href="#">登录</a></li>
+            <li id="login2"><a href="#">注册</a></li>
+            <li id="cart" class="hide_click"><img src="images/cart.png" alt=""><a href="#">购物车(0)</a>
+            </li>
+        </ul>
+    </div>
+    <div id="cart_message" class="hide_div">
+       <p>购物车还没有商品，赶紧选购吧~（≧^.^≦)~</p>
+    </div>
+</nav>
+<!-- header is  over -->
+<div id="hor_nav">
+    <div id="logo_box">
+        <div id="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">小米手机</a></li>
+                <li><a href="#">红米</a></li>
+                <li><a href="#">平板</a></li>
+                <li><a href="#">电视</a></li>
+                <li><a href="#">盒子</a></li>
+                <li><a href="#">路由器</a></li>
+                <li><a href="#">智能硬件</a></li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">社区</a></li>
+            </ul>
+        </nav>
+        <div id="search">
+            <input type="text">
+            <button></button>
+            <div id="search_div1"><a href="#">aaads</a></div>
+            <div id="search_div2"><a href="#">bbb</a></div>
+            <div id="search_result">
+                <ul>
+                    <li>啊啊啊啊啊啊<span>2222</span></li>
+                    <li>淡定淡定淡定<span>333</span></li>
+                    <li>大的法<span>455</span></li>
+                    <li>脚后跟警<span>5345</span></li>
+                    <li>答的暗示大<span>65456</span></li>
+                </ul>
+            </div>
+        </div>  
+    </div>
+    <!-- logo_box over -->
+    <div id="logo_nav_content">
+        <div id="xm_content" class="logo_nav_content">
+            <div class="logo_nav_img">
+                <img src="images/xm1.jpg" class=" none_border" alt="">
+                <p>小米手机4</p>
+                <i>1999元起</i>
+            </div>
+            <div class="logo_nav_img ">
+                <img src="images/xm2.jpg"  alt="">
+                <p>小米手机4</p>
+                <i>1699元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/xm3.jpg" alt="">
+                <p>小米手机4</p>
+                <i>1099元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/xm5.jpg" alt="">
+                <p>小米手机4</p>
+                <i>1299元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/xm5.jpg" alt="">
+                <p>小米手机4</p>
+                <i>1299元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/xm6.jpg" alt="">
+                <p>小米手机4</p>
+                <i>1499元起</i>
+            </div>
+        </div>
+        <div id="hm_content" class="logo_nav_content">
+            <div class="logo_nav_img">
+                <img src="images/hm1.jpg" class=" none_border" alt="">
+                <p>小米手机4</p>
+                <i>1999元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/hm2.jpg" class=" none_border" alt="">
+                <p>小米手机4</p>
+                <i>1999元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/hm3.jpg" class=" none_border" alt="">
+                <p>小米手机4</p>
+                <i>1999元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/hm4.jpg" class=" none_border" alt="">
+                <p>小米手机4</p>
+                <i>1999元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/hm5.jpg" class=" none_border" alt="">
+                <p>小米手机4</p>
+                <i>1999元起</i>
+            </div>
+        </div>
+        <div id="pb_content" class="logo_nav_content">
+            <div class="logo_nav_img">
+                <img src="images/pb1.jpg" class=" none_border" alt="">
+                <p>平板12</p>
+                <i>1999元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/pb2.jpg" class=" none_border" alt="">
+                <p>平板12</p>
+                <i>1999元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/pb3.jpg" class=" none_border" alt="">
+                <p>平板12</p>
+                <i>1999元起</i>
+            </div>
+        </div>
+        <div id="ds_content" class="logo_nav_content">
+            <div class="logo_nav_img">
+                <img src="images/tv1.jpg" class=" none_border">
+                <p>电视2123</p>
+                <i>2000元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/tv2.jpg" class=" none_border">
+                <p>电视2123</p>
+                <i>2000元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/tv3.jpg" class=" none_border">
+                <p>电视2123</p>
+                <i>2000元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/tv5.jpg" class=" none_border">
+                <p>电视2123</p>
+                <i>2000元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/tv6.jpg" class=" none_border">
+                <p>电视2123</p>
+                <i>2000元起</i>
+            </div>
+        </div>
+        <div id="hz_content" class="logo_nav_content">
+            <div class="logo_nav_img">
+                <img src="images/hz3.jpg" class=" none_border">
+                <p>盒子133</p>
+                <i>445元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/hz3.jpg" class=" none_border">
+                <p>盒子133</p>
+                <i>445元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/hz3.jpg" class=" none_border">
+                <p>盒子133</p>
+                <i>445元起</i>
+            </div>
+        </div>
+        <div id="lyq_content" class="logo_nav_content">
+            <div class="logo_nav_img">
+                <img src="images/lyq1.jpg" class=" none_border">
+                <p>小米手机4</p>
+                <i>1999元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/lyq3.jpg" class=" none_border">
+                <p>小米手机4</p>
+                <i>1999元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/lyq3.jpg" class=" none_border">
+                <p>小米手机4</p>
+                <i>1999元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/lyq4.jpg" class=" none_border">
+                <p>小米手机4</p>
+                <i>1999元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/lyq5.jpg" class=" none_border">
+                <p>小米手机4</p>
+                <i>1999元起</i>
+            </div>
+        </div>
+        <div id="znyj_content" class="logo_nav_content">
+            <div class="logo_nav_img">
+                <img src="images/znyj1.jpg" class=" none_border">
+                <p>dasd4</p>
+                <i>1999元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/znyj2.jpg" class=" none_border">
+                <p>dasd4</p>
+                <i>1999元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/znyj3.jpg" class=" none_border">
+                <p>dasd4</p>
+                <i>1999元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/znyj4.jpg" class=" none_border">
+                <p>dasd4</p>
+                <i>1999元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/znyj5.jpg" class=" none_border">
+                <p>dasd4</p>
+                <i>1999元起</i>
+            </div>
+            <div class="logo_nav_img">
+                <img src="images/znyj6.jpg" class=" none_border">
+                <p>dasd4</p>
+                <i>1999元起</i>
+            </div>
+        </div>  
+    </div>
+    <!-- logo_nav_content is over -->
+</div>
+<div id="content">
+    <div id="ad">
+        <div id="ad_loop">
+            <div id="ad_imgs">
+                <ul>
+                    <li><img src="images/ad_img1.jpg" alt=""></li>
+                    <li><img src="images/ad_img2.jpg" alt=""></li>
+                    <li><img src="images/ad_img3.jpg" alt=""></li>
+                    <li><img src="images/ad_img4.jpg" alt=""></li>
+                    <li><img src="images/ad_img5.jpg" alt=""></li>
+                </ul>
+            </div>
+            <!-- ad_imgs is over -->
+            <div id="pages">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <!-- pages is over -->
+        </div>
+        <div id="ad_loop_btn">
+            <div class="prev btn"><i>&lt;</i></div>
+            <div class="next btn"><i>&gt;</i></div>
+        </div>
+        <!-- ad loop is over     -->
+        <div id="sidebar">
+            <div id="second_nav">
+                <nav>
+                <ul>
+                    <li ><a href="#">手机</a><a href="#">平板</a><a href="#">电话卡</a><i>></i></li>
+                    <li><a href="#">电视</a><a href="#">盒子</a><i>></i></li>
+                    <li><a href="#">路由器</a><a href="#">智能硬件</a><i>></i></li>
+                    <li><a href="#">移动电源</a><a href="#">插线板</a><i>></i></li>
+                    <li><a href="#">耳机</a><a href="#">音箱</a><i>></i></li>
+                    <li><a href="#">电池</a><a href="#">存储卡</a><i>></i></li>
+                    <li><a href="#">保护套</a><a href="#">后盖</a><i>></i></li>
+                    <li><a href="#">贴膜</a><a href="#">其他配件</a><i>></i></li>
+                    <li><a href="#">米兔</a><a href="#">服装</a><i>></i></li>
+                    <li><a href="#">箱包</a><a href="#">其他周边</a><i>></i></li>
+                </ul>
+                </nav>
+            </div>
+            <div id="second_nav_content">               
+                <div class="lists">
+                11111111111111111
+                </div>          
+                <div class="lists">
+                2222222222222222222222
+                </div>
+                <div class="lists">
+                33333333333333
+                </div>
+                <div class="lists">
+                333344444444444444444
+                </div>
+                <div class="lists">
+                5555555555555555
+                </div>
+                <div class="lists">
+                666666666666666
+                </div>
+            </div>
+        </div>
+        <!-- sidebar is over -->
+    </div>
+    <!-- ad id over -->
+    <div id="s_ad">
+        <div id="s_logo">
+            <div class="content">
+                <img src="images/a1.gif" alt="">
+                <a href="#">电信专场</a>
+            </div>
+            <div class="content">
+                <img src="images/a2.gif" alt="">
+                <a href="#">企业团购</a>
+            </div>
+            <div class="content right">
+                <img src="images/a3.gif" alt="">
+                <a href="#">官翻产品</a>
+            </div>
+            <div class="content bottom">
+                <img src="images/a4.gif" alt="">
+                <a href="#">小米移动</a>
+            </div>
+            <div class="content bottom">
+                <img src="images/a5.gif" alt="">
+                <a href="#">以旧换新</a>
+            </div>
+            <div class="content right bottom">
+                <img src="images/a6.gif" alt="">
+                <a href="#">话费充值</a>
+            </div>
+            <div id="null1" class="null"></div>
+            <div id="null2" class="null"></div>
+        </div>
+        <!-- s_logo is over -->
+        <div id="s_img">
+            <img src="images/s_img1.jpg" alt="">
+            <img src="images/s_img2.jpg" alt="">
+            <img src="images/s_img3.jpg" alt="">
+        </div>
+        <!-- s_loop is over -->
+    </div>
+    <!-- s_ad is over -->
+    <div id="star">
+        <div class="header">
+            小米明星单品
+            <div id="star_right">
+                <span id="star_next" class="selected">&gt;</span>
+                <span id="star_prev">&lt;</span>
+            </div>
+        </div>
+        <!-- star_header is over -->
+        <div id="star_content">
+            <ul>
+                <li id="star_one">
+                    <ul>
+                        <li class="orange">
+                            <img src="images/star1.jpg" alt="">
+                            <p class="name">小米大大</p>
+                            <i>大大啊大哒哒</i>
+                            <p class="price">80元</p>
+                        </li>
+                        <li class="green">
+                            <img src="images/star2.jpg" alt="">
+                            <p class="name">小米大大</p>
+                            <i>大大啊大哒哒</i>
+                            <p class="price">80元</p>
+                        </li>
+                        <li class="blue">
+                            <img src="images/star3.jpg" alt="">
+                            <p class="name">小米大大</p>
+                            <i>大大啊大哒哒</i>
+                            <p class="price">80元</p>
+                        </li>
+                        <li class="red">
+                            <img src="images/star4.jpg" alt="">
+                            <p class="name">小米大大</p>
+                            <i>大大啊大哒哒</i>
+                            <p class="price">80元</p>
+                        </li>
+                        <li class="sky">
+                            <img src="images/star5.jpg" alt="">
+                            <p class="name">小米大大</p>
+                            <i>大大啊大哒哒</i>
+                            <p class="price">80元</p>
+                        </li>
+                    </ul>
+                </li>
+                <!-- star_one is over -->
+                <li id="star_two">
+                    <ul>
+                        <li class="orange">
+                            <img src="images/star6.jpg" alt="">
+                            <p class="name">小米大大</p>
+                            <i>大大啊大哒哒</i>
+                            <p class="price">80元</p>
+                        </li>
+                        <li class="green">
+                            <img src="images/star7.jpg" alt="">
+                            <p class="name">小米大大</p>
+                            <i>大大啊大哒哒</i>
+                            <p class="price">80元</p>
+                        </li>
+                        <li class="blue">
+                            <img src="images/star8.jpg" alt="">
+                            <p class="name">小米大大</p>
+                            <i>大大啊大哒哒</i>
+                            <p class="price">80元</p>
+                        </li>
+                        <li class="red">
+                            <img src="images/star9.jpg" alt="">
+                            <p class="name">小米大大</p>
+                            <i>大大啊大哒哒</i>
+                            <p class="price">80元</p>
+                        </li>
+                        <li class="sky">
+                            <img src="images/star10.jpg" alt="">
+                            <p class="name">小米大大</p>
+                            <i>大大啊大哒哒</i>
+                            <p class="price">80元</p>
+                        </li>
+                    </ul>
+                </li>
+                <!-- star_two is over -->
+            </ul>   
+        </div>
+        <!-- star_content is over -->
+    </div>
+    <!-- star is over -->
+</div>
+<!-- content is over -->
+<div id="classify">
+    <div id="floors">
+        <div id="groups">
+            <div class="header">
+                搭配
+                <ul>
+                    <li class="selected"><a href="#">热门</a></li>
+                    <li><a href="#">耳机音箱</a></li>
+                    <li><a href="#">电源</a></li>
+                    <li><a href="#">电池存储卡</a></li>
+                </ul>
+            </div>
+            <!-- header is over -->
+            <div class="container">
+                <div class="left">
+                    <ul>
+                        <li class="end_one"><img src="images/l1.jpg" alt=""></li>
+                        <li><img src="images/l2.jpg" alt=""></li>
+                    </ul>           
+                </div>
+                <div class="things">
+                    <div class="right">
+                        <ul>
+                            <li>
+                                <p class="discount meta">享9折</p>
+                                <img src="images/r1.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元<span>20元</span></i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <p class="discount meta">享8折</p>
+                                <img src="images/r2.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">x小米小米小耳塞耳塞</p>
+                                <i>66元</i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <img src="images/r3.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xi平板平板平板平板imi</p>
+                                <i>66元</i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <p class="discount meta">享5折</p>
+                                <img src="images/r4.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xia啦啦啦啦啦啦啦啦啦mimi</p>
+                                <i>66元<span>20元</span></i>
+                                <p class="nums">3213人评价</p>
+                            </li>                   
+                        </ul>
+                        <ul>
+                            <li>
+                                <p class="new meta">新品</p>
+                                <img src="images/r5.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元<span>20元</span></i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <p class="new meta">新品</p>
+                                <img src="images/r6.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元<span>20元</span></i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <p class="discount meta">享8折</p>
+                                <img src="images/r7.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元</i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                        </ul>
+                        <ul class="r_end">
+                            <li  class="end_one">
+                                <img src="images/r8.jpg" alt="">
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元</i>
+                            </li>
+                        </ul>
+                        <ul class="end_bottom">
+                            <li>
+                                <img src="images/fe.png" alt="">
+                                <h2>浏览更多</h2>
+                                <i class="nums">热门</i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <p class="discount meta">享9折</p>
+                                <img src="images/11.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元<span>20元</span></i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <p class="discount meta">享8折</p>
+                                <img src="images/12.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">x小米小米小耳塞耳塞</p>
+                                <i>66元</i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <img src="images/13.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xi平板平板平板平板imi</p>
+                                <i>66元</i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <p class="discount meta">享5折</p>
+                                <img src="images/14.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xia啦啦啦啦啦啦啦啦啦mimi</p>
+                                <i>66元<span>20元</span></i>
+                                <p class="nums">3213人评价</p>
+                            </li>                   
+                        </ul>
+                        <ul>
+                            <li>
+                                <p class="new meta">新品</p>
+                                <img src="images/15.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元<span>20元</span></i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <p class="new meta">新品</p>
+                                <img src="images/16.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元<span>20元</span></i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <p class="discount meta">享8折</p>
+                                <img src="images/17.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元</i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                        </ul>
+                        <ul class="r_end">
+                            <li  class="end_one">
+                                <img src="images/r8.jpg" alt="">
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元</i>
+                            </li>
+                        </ul>
+                        <ul class="end_bottom">
+                            <li>
+                                <img src="images/fe.png" alt="">
+                                <h2>浏览更多</h2>
+                                <i class="nums">热门</i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <p class="discount meta">享9折</p>
+                                <img src="images/21.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元<span>20元</span></i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <p class="discount meta">享8折</p>
+                                <img src="images/22.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">x小米小米小耳塞耳塞</p>
+                                <i>66元</i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <img src="images/23.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xi平板平板平板平板imi</p>
+                                <i>66元</i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <p class="discount meta">享5折</p>
+                                <img src="images/24.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xia啦啦啦啦啦啦啦啦啦mimi</p>
+                                <i>66元<span>20元</span></i>
+                                <p class="nums">3213人评价</p>
+                            </li>                   
+                        </ul>
+                        <ul>
+                            <li>
+                                <p class="new meta">新品</p>
+                                <img src="images/25.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元<span>20元</span></i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <p class="new meta">新品</p>
+                                <img src="images/26.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元<span>20元</span></i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <p class="discount meta">享8折</p>
+                                <img src="images/27.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元</i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                        </ul>
+                        <ul class="r_end">
+                            <li  class="end_one">
+                                <img src="images/r8.jpg" alt="">
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元</i>
+                            </li>
+                        </ul>
+                        <ul class="end_bottom">
+                            <li>
+                                <img src="images/fe.png" alt="">
+                                <h2>浏览更多</h2>
+                                <i class="nums">热门</i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <p class="discount meta">享9折</p>
+                                <img src="images/31.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元<span>20元</span></i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <p class="discount meta">享8折</p>
+                                <img src="images/32.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">x小米小米小耳塞耳塞</p>
+                                <i>66元</i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <img src="images/33.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xi平板平板平板平板imi</p>
+                                <i>66元</i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <p class="discount meta">享5折</p>
+                                <img src="images/34.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xia啦啦啦啦啦啦啦啦啦mimi</p>
+                                <i>66元<span>20元</span></i>
+                                <p class="nums">3213人评价</p>
+                            </li>                   
+                        </ul>
+                        <ul>
+                            <li>
+                                <p class="new meta">新品</p>
+                                <img src="images/35.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元<span>20元</span></i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <p class="new meta">新品</p>
+                                <img src="images/36.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元<span>20元</span></i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                            <li>
+                                <p class="discount meta">享8折</p>
+                                <img src="images/37.jpg" alt="">
+                                <p class="absolut">dadas dasd as dasd asd asd asd asdasdasd asdasd</p>
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元</i>
+                                <p class="nums">3213人评价</p>
+                            </li>
+                        </ul>
+                        <ul class="r_end">
+                            <li  class="end_one">
+                                <img src="images/r8.jpg" alt="">
+                                <p class="tname">xiaomimimi</p>
+                                <i>66元</i>
+                            </li>
+                        </ul>
+                        <ul class="end_bottom">
+                            <li>
+                                <img src="images/fe.png" alt="">
+                                <h2>浏览更多</h2>
+                                <i class="nums">热门</i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- container is over -->
+        </div>
+        <!-- groups is over -->
+    </div>
+    <!-- floors is over -->
+    <div id="hot" class="four_box">
+        <div class="header">
+            热评产品
+        </div>
+        <div id="hot_things">
+            <ul class="container">
+                <li>
+                    <img src="images/rp1.jpg" alt="">
+                    <p class="assess">四大皆空撒谎的阿姐肯定会卡接电话卡电话卡机得到科话卡号卡接电话示暗示暗示答的间啊好大几大家好大家</p>
+                    <i>来自 大家看好的哈 的评论</i>
+                    <p><b class="tname">盘手机耳机</b> <span>49元</span></p>
+                </li>
+                <li>
+                    <img src="images/rp2.jpg" alt="">
+                    <p class="assess">四大皆空撒谎的阿姐肯定会动卡经济快递行阿贾克斯电话间啊好大几大家好大家</p>
+                    <i>来自 大家看好的哈 的评论</i>
+                    <p><b class="tname"> U盘手机耳机</b><span>49元</span></p>
+                </li>
+                <li>
+                    <img src="images/rp3.jpg" alt="">
+                    <p class="assess">四大皆空撒谎的阿姐肯定会卡接电话卡电话卡机得到科技活动卡经话卡机活动空间啊好大几大家好大家</p>
+                    <i>来自 大家看好的哈 的评论</i>
+                    <p><b class="tname">U盘手机耳机</b> <span>49元</span></p>
+                </li>
+                <li>
+                    <img src="images/rp4.jpg" alt="">
+                    <p class="assess">四大皆空撒谎的阿姐肯卡号卡接电话卡机活动空间啊好大几大家好大家</p>
+                    <i>来自 大家看好的哈 的评论</i>
+                    <p><b class="tname">U盘手机耳机</b><span>49元</span></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="things" class="four_box">
+        <div class="header">
+            内容
+        </div>
+        <div id="thiss">
+            <ul class="things">
+                <li class="orange father">
+                    <div class="header_t">
+                        图书
+                    </div>
+                    <div class="container_t">
+                        <ul>
+                            <li class="selected">
+                                <h3>阿弥陀佛，么么哒</h3>
+                                <p>大冰新书，12个不舍得读完，暖心的，真实的加护故事</p>
+                                <i>9.99元</i>
+                                <img src="images/ts1.jpg" alt="">
+                            </li>
+                            <li>
+                                <h3>特价专区</h3>
+                                <p>竞选长效好书</p>
+                                <i>限时优惠</i>
+                                <img src="images/ts2.jpg" alt="">
+                            </li>
+                            <li>
+                                <h3>杂志专区</h3>
+                                <p>大报纸报纸加护故事</p>
+                                <i>同步新刊上线</i>
+                                <img src="images/ts3.jpg" alt="">
+                            </li>
+                            <li>
+                                <h3>书书书书</h3>
+                                <p>大冰h答的的暗示实的加护故事</p>
+                                <i>9.99元</i>
+                                <img src="images/ts4.jpg" alt="">
+                            </li>
+                        </ul>        
+                    </div>
+                    <div class="box_t">
+                        <ul>
+                            <li><span class="chosed"></span></li>
+                            <li><span></span></li>
+                            <li><span></span></li>
+                            <li><span></span></li>
+                        </ul>
+                    </div>
+                    <div class="btn_t">
+                        <span class="prev_t btn" id="prev1">&lt;</span>
+                        <span class="next_t btn" id="next1">&gt;</span>
+                    </div>
+                </li>
+                <li class="green father hit">
+                    <div class="header_t">
+                        图书
+                    </div>
+                    <div class="container_t">
+                        <ul>
+                            <li class="selected">
+                                <h3>阿发生的发撒地方</h3>
+                                <p>发多发发大幅大幅水电费撒肥撒旦发生的发</p>
+                                <i>9.99元</i>
+                                <img src="images/yy1.png" alt="">
+                            </li>
+                            <li>
+                                <h3>特价专区</h3>
+                                <p>竞选长效好书</p>
+                                <i>限时优惠</i>
+                                <img src="images/yy2.png" alt="">
+                            </li>
+                            <li>
+                                <h3>杂志专区</h3>
+                                <p>大报纸报纸加护故事</p>
+                                <i>同步新刊上线</i>
+                                <img src="images/yy3.png" alt="">
+                            </li>
+                            <li>
+                                <h3>书书书书</h3>
+                                <p>大冰h答的的暗示实的加护故事</p>
+                                <i>9.99元</i>
+                                <img src="images/yy4.jpg" alt="">
+                            </li>
+                        </ul>        
+                    </div>
+                    <div class="box_t">
+                        <ul>
+                            <li><span class="chosed"></span></li>
+                            <li><span></span></li>
+                            <li><span></span></li>
+                            <li><span></span></li>
+                        </ul>
+                    </div>
+                    <div class="btn_t">
+                        <span class="prev_t btn">&lt;</span>
+                        <span class="next_t btn">&gt;</span>
+                    </div>
+                </li>
+                <li class="red father">
+                    <div class="header_t">
+                        图书
+                    </div>
+                    <div class="container_t">
+                        <ul>
+                            <li class="selected">
+                                <h3>阿弥陀佛，么么哒</h3>
+                                <p>大冰新书，12个不舍得读完，暖心的，真实的加护故事</p>
+                                <i>9.99元</i>
+                                <img src="images/wj1.jpg" alt="">
+                            </li>
+                            <li>
+                                <h3>特价专区</h3>
+                                <p>竞选长效好书</p>
+                                <i>限时优惠</i>
+                                <img src="images/wj2.jpg" alt="">
+                            </li>
+                            <li>
+                                <h3>杂志专区</h3>
+                                <p>大报纸报纸加护故事</p>
+                                <i>同步新刊上线</i>
+                                <img src="images/wj3.jpg" alt="">
+                            </li>
+                            <li>
+                                <h3>书书书书</h3>
+                                <p>大冰h答的的暗示实的加护故事</p>
+                                <i>9.99元</i>
+                                <img src="images/wj4.jpg" alt="">
+                            </li>
+                        </ul>        
+                    </div>
+                    <div class="box_t">
+                        <ul>
+                            <li><span class="chosed"></span></li>
+                            <li><span></span></li>
+                            <li><span></span></li>
+                            <li><span></span></li>
+                        </ul>
+                    </div>
+                    <div class="btn_t">
+                        <span class="prev_t btn">&lt;</span>
+                        <span class="next_t btn">&gt;</span>
+                    </div>
+                </li>
+                <li class="blue father">
+                    <div class="header_t">
+                        图书
+                    </div>
+                    <div class="container_t">
+                        <ul>
+                            <li class="selected">
+                                <h3>阿弥陀佛，么么哒</h3>
+                                <p>大冰新书，12个不舍得读完，暖心的，真实的加护故事</p>
+                                <i>9.99元</i>
+                                <img src="images/yx1.png" alt="">
+                            </li>
+                            <li>
+                                <h3>特价专区</h3>
+                                <p>竞选长效好书</p>
+                                <i>限时优惠</i>
+                                <img src="images/yx2.png" alt="">
+                            </li>
+                            <li>
+                                <h3>杂志专区</h3>
+                                <p>大报纸报纸加护故事</p>
+                                <i>同步新刊上线</i>
+                                <img src="images/yx3.png" alt="">
+                            </li>
+                            <li>
+                                <h3>书书书书</h3>
+                                <p>大冰h答的的暗示实的加护故事</p>
+                                <i>9.99元</i>
+                                <img src="images/yx4.jpg" alt="">
+                            </li>
+                        </ul>        
+                    </div>
+                    <div class="box_t">
+                        <ul>
+                            <li><span class="chosed"></span></li>
+                            <li><span></span></li>
+                            <li><span></span></li>
+                            <li><span></span></li>
+                        </ul>
+                    </div>
+                    <div class="btn_t">
+                        <span class="prev_t btn">&lt;</span>
+                        <span class="next_t btn">&gt;</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="video" class="four_box">
+        <div class="header">
+            视频
+            <div id="video_hr">
+                <a href="#">查看全部<span>&gt;</span></a>
+            </div>
+        </div>
+        <div id="container_video">
+            <ul>
+                <li class="father">
+                   <img src="images/sp1.jpg">
+                   <p>算发多任务的</p>
+                   <i>小米大家都拉复复答的</i>
+
+                </li>
+                <li class="father">
+                   <img src="images/sp2.jpg">
+                   <p>大姐夫文件发多热打算发多任务的</p>
+                   <i>小米大家复复答的</i>
+
+                </li>
+                <li class="father">
+                   <img src="images/sp3.jpg">
+                   <p>大姐夫文发多任务的</p>
+                   <i>小米大家都拉反反复复答的</i>
+
+                </li>
+                <li class="father">
+                   <img src="images/sp4.jpg">
+                   <p>大姐夫文发多任务的</p>
+                   <i>小米大复复答的</i>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- classify is over -->
+<footer>
+    <div id="container_f">
+        <div id="header_f">
+           <ul>
+               <li class="none_border"><a href="#"><img src="images/f1.gif" alt="">1小时快修服务</a></li>
+               <li><a href="#"><img src="images/f2.gif" alt="">7天无理由退货</a></li>
+               <li><a href="#"><img src="images/f3.gif" alt="">15天免费换货</a></li>
+               <li><a href="#"><img src="images/f4.gif" alt="">满150元包邮</a></li>
+               <li class="right"><a href="#"><img src="images/f5.gif" alt="">520余家售后网点</a></li>
+           </ul>
+        </div>
+        <!-- header is over -->
+        <div id="content_f">
+            <div id="content_words">
+               <div id="content_fl">
+                   <ul>
+                       <li class="fls">
+                           <a href="#">帮助中心</a>
+                           <ul>
+                               <li class="flss"><a href="#">购物指南</a></li>
+                               <li class="flss"><a href="#">支付方式</a></li>
+                               <li class="flss"><a href="#">配送方式</a></li>
+                           </ul>
+                       </li>
+                       <li class="fls">
+                           <a href="#">服务支持</a>
+                           <ul>
+                               <li class="flss"><a href="#">售后政策</a></li>
+                               <li class="flss"><a href="#">自助服务</a></li>
+                               <li class="flss"><a href="#">相关下载</a></li>
+                           </ul>
+                       </li>
+                       <li class="fls">
+                           <a href="#">小米之家</a>
+                           <ul>
+                               <li class="flss"><a href="#">小米之家</a></li>
+                               <li class="flss"><a href="#">服务网点</a></li>
+                               <li class="flss"><a href="#">预约服务</a></li>
+                           </ul>
+                       </li>
+                       <li class="fls">
+                           <a href="#">关于小米</a>
+                           <ul>
+                               <li class="flss"><a href="#">了解小米</a></li>
+                               <li class="flss"><a href="#">加入小米</a></li>
+                               <li class="flss"><a href="#">联系我们</a></li>
+                           </ul>
+                       </li>
+                       <li class="fls">
+                           <a href="#">关注我们</a>
+                           <ul>
+                               <li class="flss"><a href="#">新浪微博</a></li>
+                               <li class="flss"><a href="#">小米部落</a></li>
+                               <li class="flss"><a href="#">官方微信</a></li>
+                           </ul>
+                       </li>
+                       <li class="fls">
+                           <a href="#">特色服务</a>
+                           <ul>
+                               <li class="flss"><a href="#">F码通道</a></li>
+                               <li class="flss"><a href="#">小米移动</a></li>
+                               <li class="flss"><a href="#">防伪查询</a></li>
+                           </ul>
+                       </li>
+                   </ul>
+               </div>
+               <div id="content_fr">
+                   <h3>400-100-5678</h3>
+                   <p>周一至周日 8:00-18:00</p>
+                   <p>（仅收市内话费）</p>
+                   <i><img src="images/f6.gif" alt="">24小时在线客服</i>
+               </div>
+            </div>
+            <!-- content_words is over -->
+            <div id="content_nav">
+                <img src="images/f7.gif" alt="">
+                <ul class="slogo">
+                   <li>
+                       <ul class="snav">
+                           <li><a href="#">小米网</a></li>
+                           <li><a href="#">MIUI</a></li>
+                           <li><a href="#">米聊</a></li>
+                           <li><a href="#">多看舒城</a></li>
+                           <li><a href="#">小米路由器</a></li>
+                           <li><a href="#">视频电话</a></li>
+                           <li><a href="#">小米后院</a></li>
+                           <li><a href="#">小米天猫店</a></li>
+                           <li><a href="#">小米淘宝直营店</a></li>
+                           <li><a href="#">小米网盟</a></li>
+                           <li><a href="#">问题反馈</a></li>
+                           <li class="right"><a href="#">Select Region</a></li>
+                       </ul>
+                   </li>
+                   <li>
+                       ©mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2014]0059-0009号 违法和不良信息举报电话：185-0130-1238
+                   </li>
+                </ul>
+                <div id="pros">
+                   <div class="pro">
+                       <img src="images/f8.gif" alt="">
+                       <ul>
+                           <li><a href="#">诚信网站</a></li>
+                           <li><a href="#">示范企业</a></li>
+                       </ul>
+                   </div>
+                   <!-- pro is over -->
+                   <div class="pro">
+                       <img src="images/f9.gif" alt="">
+                       <ul>
+                           <li><a href="#">可信网站</a></li>
+                           <li><a href="#">信用评价</a></li>
+                       </ul>
+                   </div>
+                   <!-- pro is over -->
+                   <div class="pro">
+                       <img src="images/f0.gif" alt="">
+                       <ul>
+                           <li><a href="#">网上交易</a></li>
+                           <li><a href="#">保障中心</a></li>
+                       </ul>
+                   </div>
+                   <!-- pro is over -->
+                </div>
+                <!-- pros is over -->
+            </div>
+            <!-- content_nav is over -->
+        </div>  
+        <!-- content_f is over      -->
+        <div id="over">
+            <img src="images/f00.gif" alt="">
+        </div>
+    </div>
+</footer>
+<!-- footer is over -->
+<script src="jquery/jquery-1.12.1.min.js"></script>
+<script src="jquery/main.js"></script>
+</body>
+</html>
