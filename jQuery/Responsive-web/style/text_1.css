@@ -1,0 +1,540 @@
+body{
+	width: 100%;
+		font-family: "楷体";
+}
+header{
+	float: left;
+	background-color: #999594;
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+#logo{
+	width: 200px;
+	padding: 15px 30px;
+	float: left;
+}
+#logo img{
+	width: 100%;
+	height: 100%;
+}
+#nav{
+	float: right;
+}
+#list li{
+	list-style: none;
+}
+#list li a{
+	display: block;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+}
+#list li a:hover{
+	color: #b6dad0;
+}
+#chinese_logo{
+	position: absolute;
+	width: 7%;
+	height: 24%;
+	background-image: url(../images/chinese_logo.gif);
+	background-size: 100%;
+	background-color: #000;
+	right: 7%;
+	top: 0;
+}
+/*=====================ad====================*/
+#ad{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+#ad .ads{
+	position: absolute;
+	width: 100%;
+}
+#ad img{
+	width: 100%;
+}
+#ad_buttons{
+	position: absolute;
+	bottom: 7%;
+	left: 42%;
+}
+#ad_buttons span{
+	background-color: #b6b6b6;
+	border-radius: 50px;
+	cursor: pointer;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin-left: 30px;
+}
+#ad_buttons span:hover, #ad_buttons  .checked {
+	background-color: #b9dad3;
+}
+#ad .arrow{
+	color: #bfd8d2;
+	position: absolute;
+	z-index: 5;
+	font-size: 5.5em;
+	top:35%;
+}
+#ad .arrow:hover{
+	color: #4cc4ab;
+}
+#prev{
+   	left: 50px;
+}
+#next{
+	right: 50px;
+}
+@keyframes myleft
+{
+from {color: #fff;left: 5px;}
+to {color: #bfd8d2;left: 50px;}
+}
+
+@-moz-keyframes myleft /* Firefox */
+{
+from {color: #fff; left: 5px;}
+to {color: #bfd8d2;left: 50px;}
+}
+
+@-webkit-keyframes myleft /* Safari 和 Chrome */
+{
+from {color: #fff; left: 5px;}
+to {color: #bfd8d2;left: 50px;}
+}
+
+@-o-keyframes myleft /* Opera */
+{
+from {color: #fff; left: 5px;}
+to {color: #bfd8d2;left: 50px;}
+}
+#prev{
+	animation: myleft 5s;
+	-moz-animation: myleft 5s;
+	-webkit-animation: myleft 5s;
+	-o-animation: myleft 5s;
+}
+@keyframes myright
+{
+from {color: #fff;right: 5px;}
+to {color: #bfd8d2;right: 50px;}
+}
+
+@-moz-keyframes myright /* Firefox */
+{
+from {color: #fff; right: 5px;}
+to {color: #bfd8d2;right: 50px;}
+}
+
+@-webkit-keyframes myright /* Safari 和 Chrome */
+{
+from {color: #fff; right: 5px;}
+to {color: #bfd8d2;right: 50px;}
+}
+
+@-o-keyframes myright /* Opera */
+{
+from {color: #fff; right: 5px;}
+to {color: #bfd8d2;right: 50px;}
+}
+#next{
+	animation: myright 5s;
+	-moz-animation: myright 5s;
+	-webkit-animation: myright 5s;
+	-o-animation: myright 5s;
+}
+#ad .ads{
+	position: relative;
+}
+#ad .ads a{
+	background-image: url(../images/more.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display: block;
+	width: 14%;
+	height: 8%;
+	position: absolute;
+	z-index: 8;
+}
+#ad .more1{
+	top: 63%;
+	left: 57.5%;
+}
+#ad .more2{
+	top: 23%;
+	left: 57.5%;
+}
+#ad .more3{
+	top: 23%;
+	left: 57.5%;
+}
+/*==================others========================*/
+#others{
+	float: left;
+	padding:20px 0;
+	width:81%;
+	margin:0 auto;
+}
+#others .others_divs{
+	border:1px solid #bfd8d2;
+	width: 23%;
+	height: 150px;
+	line-height: 150px;
+	margin:0 1%;
+	float: left;
+}
+#others .others_divs a{
+	background-color: #bfd8d2;
+	display: inline-block;
+	width: 60%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 1.3em;
+	color: #fff;
+}
+#others .others_divs a:hover{
+	background-color: #4cc4ab;
+}
+footer{
+	background-color: #a1a1a1;
+	color: #fff;
+	float: left;
+	text-align: center;
+	width: 100%;
+	padding-top: 2%;
+}
+#footer_logo img{
+	width: 9%;
+}
+#contact{
+	margin-top: 1%;
+}
+#spans span{
+	border-radius: 50px;
+	background-color: #fff;
+	display:inline-block;
+}
+#footer_lists {
+	width: 99%;
+	text-align: center;
+	padding:30px 0;
+	margin:0 auto;
+}
+#footer_lists li{
+	float: left;
+	list-style: none;
+	margin:2px 18px;
+	text-align: center;
+}
+#footer_lists li a{
+	color: #fff;
+	font-weight: 400;
+}
+#copyright{
+	margin-top: 2%;
+}
+#copy_img{
+	width: 40%;
+	text-align: right;
+	float: left;
+}
+#copy_content{
+	float: right;
+	text-align: left;
+	width: 60%;
+}
+#copy_img img{
+	width: 25%;
+	margin-right: 5%;
+}
+#copy_content p{
+	padding-bottom: 7px;
+}
+#copy_content p:last-child{
+	margin-left: 15%;
+}
+@media screen and (max-width: 640px){
+	#nav{
+		width: 135px;
+		height: 41px;
+		padding-top: 10px;
+	}
+	#chinese_logo{
+		height: 15%;
+		right: 0;
+		top: 35%;
+	}
+	#button{
+		display: block;
+		width: 83px;
+		height: 41px;
+		margin-top: 20px;
+	}
+	#nav .menu{
+		background: url(../images/menu.gif);
+	}
+	#nav .close{
+		background:url(../images/close.gif);
+	}
+	#list{
+		border:1px solid #d9e0de;
+		background-color: #fff;
+		display: none;
+		position: absolute;
+		top: 80px;
+		right: 53px;
+		padding: 0 20px;
+		width: 246px;
+		z-index: 10;
+	}
+	#list li{
+		border-bottom: 1px solid #d9e0de;
+		padding:10px 0px;
+		width: 100%;
+		height: 20px;
+	}
+	#list li:last-child{
+		border-bottom: none;
+	}
+	#list li a{
+		color: #999594;
+		font-weight: 800;
+	}
+	#list li a:hover{
+		color: #4e5bfa;
+	}
+	#ad{
+		height: 316px;
+	}
+	#ad_buttons {
+		bottom: 6%;
+		left: 41%;
+	}
+	#ad_buttons span{
+		width: 10px;
+		height: 10px;
+		margin-left: 10px;
+	}
+	#prev{
+   		left: 10px;
+	}
+	#next{
+		right: 10px;
+	}
+	@keyframes myleft
+	{
+		from {color: #fff;left: 3px;}
+		to {color: #bfd8d2;left: 10px;}
+	}
+
+	@-moz-keyframes myleft /* Firefox */
+	{
+		from {color: #fff; left:3px;}
+		to {color: #bfd8d2;left: 10px;}
+	}
+
+	@-webkit-keyframes myleft /* Safari 和 Chrome */
+	{
+		from {color: #fff; left:3px;}
+		to {color: #bfd8d2;left: 10px;}
+	}
+
+	@-o-keyframes myleft /* Opera */
+	{
+		from {color: #fff; left:3px;}
+		to {color: #bfd8d2;left: 10px;}
+	}
+	@keyframes myright
+	{
+		from {color: #fff;right: 3px;}
+		to {color: #bfd8d2;right: 10px;}
+	}
+
+	@-moz-keyframes myright /* Firefox */
+	{
+		from {color: #fff; right: 3px;}
+		to {color: #bfd8d2;right: 10px;}
+	}
+
+	@-webkit-keyframes myright /* Safari 和 Chrome */
+	{
+		from {color: #fff; right: 3px;}
+		to {color: #bfd8d2;right: 10px;}
+	}
+
+	@-o-keyframes myright /* Opera */
+	{
+		from {color: #fff; right: 3px;}
+		to {color: #bfd8d2;right: 10px;}
+	}
+	#others{
+		padding:20px 0;
+		padding-left: 110px;
+	}
+	#others .others_divs a{
+		padding:10px 10px;
+		height: 30%;
+		font-size: 1em;
+		line-height: 1.5em;
+		width: 80%;	
+	}
+	#others .others_divs{
+		width: 21%;
+		height: 80px;
+		line-height: 80px;
+		margin:0 2%;
+	}
+	#contact{
+		font-size: 0.8em;
+		padding-top: 2px;
+	}
+	#spans{
+		width: 100%;
+		height: 9%;
+	}
+	#spans span{
+		width: 22px;
+		height: 22px;
+		margin:4px 1px;
+	}
+	#footer_lists li{
+		margin:2px 9px;
+	}
+	#copyright{
+		padding-top: 15px;
+	}
+	#copy_img{
+		width: 25%;
+	}
+	#copy_content{
+		width: 75%;
+	}
+}
+@media screen and (min-width: 641px){
+	header{
+		height: 120px;
+	}
+	#ad{
+		height: 405px;
+	}
+	#nav{
+		margin-right: 30px;
+	}
+
+	#list{
+		margin-right:30px;
+	}
+	#list li{
+		float: left;
+		font-size: 1.5em;
+		font-family: Arial;
+		padding-left: 15px;
+		line-height: 5em;
+	}
+	#list li a {
+		color: #fff;
+	}
+	#spans span{
+		width: 25px;
+		height: 25px;
+		margin:4px 1px;
+	}
+	#others{
+		padding-left: 25%;
+		width: 75%;
+	}
+	#others .others_divs{
+		height: 80px;
+		line-height: 80px;
+	}
+	#others .others_divs a{
+		font-size: 0.8em;
+		width: 80%;
+		height: 60%;
+		line-height: 3.7em;
+	}
+	#footer_lists{
+		width: 99%;
+		margin: 0 auto;
+	}
+	#chinese_logo{
+		height: 20%;
+	}
+}
+@media screen and (min-width: 1023px){
+	#ad{
+		height: 525px;
+	}
+	header{
+		padding-top:15px;
+	}
+	#logo{
+		margin-left:13%;
+	}
+	#nav{
+		margin-right: 15%;
+	}
+	#nav li{
+		padding-left:18px;
+	}
+	#ad .arrow{
+		top: 40%;
+		font-size: 8.5em;
+	}
+	#ad_buttons{
+		left: 40%;
+	}
+	#others{
+		width: 77%;
+		padding-left: 19%;
+	}
+	#others .others_divs{
+		height: 150px;
+		line-height: 150px;
+	}
+	#others .others_divs a{
+		font-size:1em;
+		height: 50%;
+	}
+	#spans span{
+		width: 32px;
+		height: 32px;
+		margin:14px 1px;
+	}
+	#chinese_logo{
+		height: 18%;
+	}
+}
+@media screen and (min-width: 1259px){
+	#nav li{
+		padding-left:60px;
+	}
+	#ad{
+		height: 675px;
+	}
+	#ad_buttons{
+		left: 43%;
+	}
+	#others .others_divs{
+		width: 25%;
+	}
+	#others .others_divs a{
+		font-size: 1.4em;
+	}
+	#footer_lists{
+		width: 80%;
+	}
+	#spans span{
+		width: 42px;
+		height: 42px;
+	}
+	#chinese_logo{
+		height: 22%;
+	}
+}
