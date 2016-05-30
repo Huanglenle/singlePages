@@ -25,7 +25,7 @@ $(function(){
 		btNode.mouseover(function() {
 			btNode.addClass("checked").siblings().removeClass("checked");
             var index = btNode.index();
-            console.log(index);
+            // console.log(index);
             imgs.eq(index).fadeIn(300).siblings().fadeOut(30);
 		});
 	});
