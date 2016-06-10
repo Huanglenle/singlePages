@@ -1,0 +1,111 @@
+@charset "utf-8";
+.fixed{
+	position: fixed;
+}
+.relative{
+	position:relative;
+}
+.absolute{
+	position: absolute;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float:right;
+}
+.cb{
+  clear:both;
+}
+
+.oh {
+  overflow: hidden;
+}
+
+.oa {
+  overflow: auto;
+}
+.tc{
+  text-align:center;
+}
+//样式
+
+#adLoop{
+	width:100%;
+	.relative;
+}
+#ad{
+	width:100%;
+}
+.adImg{
+	.absolute;
+	width: 100%;
+	img{
+		width:100%;
+	}
+}
+
+#btns{
+	.absolute;
+	width:100%;
+	height:8px;
+	.tc;
+	bottom:20px;
+	left:0px;
+	z-index:5;
+}
+#btns span{
+	display:inline-block;
+	width:14px;
+	height:5px;
+	margin:0 5px;
+	background-color: rgba(255,255,255,0.5);
+	-webkit-user-select:none;
+}
+#btn .selected{
+	background-color:#fff;
+}
+#contain{
+	width:100%;
+	height:auto;
+	li{
+		.relative;
+		color:#fff;
+		margin-top: 5px;
+	}
+	img{
+		width:100%;
+	}
+	div{
+		width:100%;
+		padding: 5px 10px 1px 10px;
+		.absolute;
+		bottom:0px;
+		z-index:16;
+	}
+	h5{
+		font-size:13px;
+		font-weight:400;
+		white-space: nowrap;
+		overflow:hidden;
+	}
+	p{
+		font-size:13px;
+		width:100%;
+		line-height:20px;
+	}
+	.overplus{
+		.fr;
+		padding-right: 20px;
+	}
+}
+#noMore{
+	background-color:#f1f1f1;
+	color:#999999;
+	.fl;
+	width:100%;
+	height:20px;
+	.tc;
+	padding-top: 7px;
+	padding-bottom: 47px;
+}
