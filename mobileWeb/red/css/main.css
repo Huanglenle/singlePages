@@ -105,6 +105,12 @@ footer li a span {
   height: 20px;
 }
 @media screen and (min-width: 770px) {
+  #wrapper {
+    width: 30%;
+  }
+  #wrapper #contain {
+    width: 30%;
+  }
   body {
     width: 30%;
   }
@@ -116,6 +122,12 @@ footer li a span {
   }
 }
 @media screen and (max-width: 771px) {
+  #wrapper {
+    width: 100%;
+  }
+  #wrapper #contain {
+    width: 100%;
+  }
   body {
     width: 100%;
   }
