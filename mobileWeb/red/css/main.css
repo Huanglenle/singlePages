@@ -27,6 +27,7 @@ body {
   padding: 0;
   -webkit-user-select: none;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 header {
   background-color: rgba(0, 0, 0, 0.6);
