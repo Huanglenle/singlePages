@@ -1,0 +1,52 @@
+@charset "utf-8";
+.fixed{
+	position: fixed;
+}
+.relative{
+	position:relative;
+}
+.absolute{
+	position: absolute;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float:right;
+}
+.tc{
+  text-align:center;
+}
+@redcolor: #d4201b;
+@redActiveColor:rgb(168, 30, 26);
+@goldencolor: #d4985c;
+
+.img{
+	.relative;
+	width: 100%;
+	height:auto;
+	.city{
+		color:#fff;
+		.absolute;
+		bottom:15px;
+		padding: 3px 2px;
+		right:5px;
+	}
+	img{
+		.absolute;
+		top:0;
+		left:0;
+		width:100%;
+	}
+	p{
+		.absolute;
+		width:100%;
+		height:auto;
+		color:#fff;
+		margin-top:20%;
+		text-align:center;
+		i{
+			width:100%;
+		}
+	}
+}
