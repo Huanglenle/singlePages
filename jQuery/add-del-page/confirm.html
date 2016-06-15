@@ -1,0 +1,124 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link rel="dns-prefetch" href="res.xinzuji.com"/><link rel="dns-prefetch" href="img.xinzuji.com"/><meta name="robots" content="none" /><meta name="baidu-site-verification" content="qxDQocZnDl" /><meta name="viewport" content="width=device-width,initial-scale=1.0" /><title>新足迹游学网</title><link rel="stylesheet" type="text/css" href="http://res.xinzuji.com/min/css/jquery.mobile.all.1nj19pt.css"/><link rel="stylesheet" type="text/css" href="http://res.xinzuji.com/min/css/main-mobile.1hcf7te.css"/><link rel="stylesheet" type="text/css" href="http://res.xinzuji.com/min/css/mobile/order/order.2tzrex.css"/><script type="text/javascript" src="http://res.xinzuji.com/min/js/jquery.mobile.all.ernu7r.js"></script><script type="text/javascript" src="http://res.xinzuji.com/min/js/mobile/util.1wo9j2x.js"></script><script type="text/javascript" src="http://res.xinzuji.com/js/mobile/icon.js"></script><script type="text/javascript">if(typeof($util)=='undefined')$util={};$util.now=1465868259;$util.enableCounter=true;$util.enableBaiduTongji=true;var currentUser={"id":false,"name":false,"genderText":false,"isLogin":false,"isPrivate":false,"avatar_url":false,"mobile":false,"email":false};</script><script type="text/javascript" src="http://res.xinzuji.com/min/js/mobile/order/confirm.uubmxj.js"></script></head><body><div class="loginBox"><a href="/" class="noLogin">首页</a><a href="/login/index" class="noLogin">登录</a><a href="/" class="isLogin">首页</a><a href="/user_center" class="isLogin">个人中心</a><a href="/user_center/tourism" class="isLogin">我的订单</a><a href="/logout/" class="isLogin">注销</a></div><style type="text/css">
+.tip-box{background-color: #fffbcf;border: 1px solid #f5a623;width: 95%;margin: 2px 0 10px 0;padding: 5px;display: none;}
+.tip-box .msg{color: #e67768;font-size: 12px;margin: 10px;line-height: 20px;}
+
+.order-btn{
+	text-align: center;
+	margin:2em 0;
+}
+.order-btn .button{
+	padding: 0.8em 6em;
+}
+#confirm_back{
+	top:0.2em !important;
+}
+i{
+	position: absolute;
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	top:19px;
+	margin-top: -11px;
+	right: 7pt;
+	border-radius: 1em;
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color:rgba(0,0,0,0.3);
+}
+.add_icon{
+	background-image: url(add.png);
+
+}
+.del_icon{
+	background-image: url(del.png);
+}
+#note{
+	padding-top: 10px;
+}
+#note_content input{
+	height: 50px;
+	/*font-size: 12px;*/
+	/*font-weight: normal;*/
+}
+</style>
+<div data-role="page" data-title="订单确认">
+<div data-role="header" data-position="fixed">
+<h3>订单确认</h3>
+<a data-rel="back" data-iconpos="notext" style="top: 0.4em" id="confirm_back"><img icon-data="icon_back_white" width="10pt" /></a>
+</div>
+<div data-role="content" field="program_options">
+<div class="grid-a">
+<img icon-data="icon_position" class="icon-w1">
+</div>
+<div class="grid-b border-b"><div>您正在预订：</div><div class="name">【中国+10天】纯美式夏令营模拟走进美国，12位美国教练全程指导</div><div class="grid-c">服务机构：</div><div class="grid-d">新足迹</div><div class="grid-c">项目时间：</div><div class="grid-d">2016-07-24~2016-08-02</div><div class="grid-c">项目费用：</div><div class="grid-d">11900&nbsp;人民币</div><div class="grid-c" amount="2">购买数量：</div><div class="grid-d">2</div></div>
+<div class="grid-c relate required">联系人：</div><div class="grid-d"><input type="text" field="contact_name" value=""></div>
+<div class="grid-c relate required">联系电话：</div><div class="grid-d"><input id="tel" type="text" field="contact_card" value=""></div><div class="tip-box tip-card" ></div>
+<div class="grid-c relate required">家庭住址：</div>
+
+	<select propertyindex="0">
+		<option value="-1">请选择城市</option>
+		<option value="0">北京</option>
+		<option value="1">上海</option>
+		<option value="2">深圳</option>
+		<option value="3">广州</option>
+	</select>	
+<div class="tip-box tip-card" ></div>
+<div class="grid-c relate"></div>
+<div class="">
+	<select propertyindex="1">
+		<option value="-1">请选择区域</option>
+		<option value="0">福田区</option>
+		<option value="1">南山区</option>
+		<option value="2">宝安区</option>
+	</select>	
+</div>
+
+
+
+<div id="children">
+	<ul>
+		<li><div class="childernNode">
+<div style="position:relative" class="add">
+<div class="grid-c relate required" >孩子年龄：</div>
+<div class="grid-d add_input">
+<input  id="num" type="text" field="contact_number" value="">
+</div>
+<i class="add_icon"></i>
+</div>
+<div style="position:relative" class="add">
+<div class="grid-c relate required">孩子性别：</div>
+<div class="grid-d add_input">
+
+<input type="text" field="contact_number"/></div> </div>
+</div><hr/>
+</li>
+	</ul>
+	
+
+<hr/>
+
+
+<div class="tip-box tip-tel" ></div><!-- <div class="" id="note">备注：</div><div class="grid-d" id="note_content"><input type="text" field="contact_remark" value="" placeholder="特殊情况可在此备注"></div> --></div></div><div class="grid-b grid-d" id="utilMessageBox" style="margin-top:2em;display:none;font-size:0.75em;font-weight:normal;color:red"></div><div class="order-btn"><a class="button bg-green" id="btnOrder" pid="1697">提交订单<img icon-data="icon_next_bw"  class="icon-w3"></a></div></div></div>
+<script>
+	   
+	// var adds = $(".add");
+	var icon = $(".add_icon");
+
+icon[0].onclick = function(){
+	var $newNode = $('<li><div class="childernNode"><div style="position:relative" class="add"><div class="grid-c relate required">孩子年龄：</div><div class="grid-d add_input"><div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input type="text" field="contact_number"/></div></div><i class="del_icon"></i>   </div><div class="grid-c relate required">孩子性别：</div> <div class="grid-d add_input"><div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input type="text" field="contact_number" checked="true"/></div></div><hr/></div></li>');
+	var $ul = $("ul");
+	$ul.append($newNode);
+
+	var del_icon = $(".del_icon");
+			$(".del_icon").click(function(){
+				$(this).parent().parent().remove();
+			})
+}
+
+
+
+
+</script>
+
+</body></html>
